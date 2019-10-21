@@ -17,21 +17,23 @@
 }
 
 .main-container {
-    /* width: 98%; */
+    width: 100%;
     margin: 0 auto;
 }
 
 .column {
     float: left;
-    padding: 0 20px;
+    margin: 0 1%;
+    height: 500px;
 }
 
 .half.column  {
-    width: 50%;
+    width: 48%;
+
 }
 
 .one.column  {
-    width: 100%;
+    width: 98%;
 }
 /*** fine layout base ***/
 
@@ -146,14 +148,18 @@ header {
 
 /*** inizio altre sezioni ... ***/
 #second {
-    padding: 80px 0;
+    margin-top:100px;
+    margin-bottom: 240px;
 }
-
+#left{
+    margin-right: 3%;
+}
 .product {
-    background-color: #FAFAFA;
+
     padding: 50px;
     text-align: center;
     font-weight: 100;
+    background-color: #FAFAFA;
 }
 
 .product h1{
@@ -173,14 +179,19 @@ header {
     font-size: 22px;
 
 }
-
-.product a{
-    font-size: 20px;
+.blue{
     color: #0070C8;
+}
+.white{
+    color: white;
+}
+a.learnMore{
+    font-size: 20px;
+
     text-decoration: none;
     position: relative;
 }
-.product a::after{
+a.learnMore.blue::after{
     content: url('https://www.helbiz.com/asset/pages/newhome/images/Arrow.svg');
     width: 50px;
     position: absolute;
@@ -258,13 +269,13 @@ background-size: cover;
     max-width: 14%;
     z-index: 3;
     left: 41.5%;
-    top: 42.5%;
+    top: 40.5%;
 }
 
 #mainPhoneSlider ul{
     position: absolute;
     left: 46%;
-    top: 137%;
+    top: 106%;
 }
 #mainPhoneSlider ul li{
     margin: 5px;
@@ -281,3 +292,56 @@ background-size: cover;
     background-color: black;
 }
 /* /iPhoneSlider */
+
+/* Smart mobility */
+#smartMobilityMainSection{
+    padding-top: 100px;
+
+}
+
+#columRowFull{
+
+    background-image: url('https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textImageSmart{
+    text-align: center;
+    width: 23%;
+    float: right;
+    color: white;
+    margin-right: 15%;
+    padding:90px 0;
+}
+
+a.learnMore.white::after{
+    content: url('https://helbiz.com/asset/pages/newhome/images/arrow-white.svg');
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: -40px;
+
+}
+
+#smartMobilityMainSection h1{
+
+    font-size: 43px;
+}
+
+#smartMobilityMainSection p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.halfImage{
+    color: white;
+    text-align: center;
+
+}
+.halfImage #halfImageWidthLeft {
+    background-image:
+}
+/* /Smart mobility */
