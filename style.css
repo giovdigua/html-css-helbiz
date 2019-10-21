@@ -198,6 +198,7 @@ header {
     max-width: 200px;
     padding: 15px 0;
 }
+/* iPhoneSlider */
 #mainPhoneSlider{
     position: relative;
 }
@@ -206,24 +207,27 @@ header {
     height: 500px;
     background-color: red;
     background-image: url('https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .downMainPhoneSlider{
     width: 70%;
-    margin: 45px auto;
-    height:300px;
+    margin: 0px auto;
+
 }
 
 .downInner{
     width:25%;
-    margin: 45px;
+
     height: 210px;
     line-height: 1.1;
     position: relative;
 }
 #rightDownInner{
     float: right;
-    padding-top: 87px;
+    padding-top: 77px;
 }
 #rightDownInner h3{
     font-size: 18px;
@@ -233,7 +237,7 @@ header {
 #leftDownInner{
     float: left;
     font-size: 24px;
-    padding-top: 70px;
+    padding-top: 60px;
     line-height: 1.1;
 }
 
@@ -244,6 +248,36 @@ header {
 #mainPhoneSlider img {
     position: absolute;
     max-width: 330px;
-    left: 40%;
-    top: 44%;
+    left: 37%;
+    top: 37%;
+    z-index: 4;
 }
+
+#mainPhoneSlider img#slide{
+
+    max-width: 14%;
+    z-index: 3;
+    left: 41.5%;
+    top: 42.5%;
+}
+
+#mainPhoneSlider ul{
+    position: absolute;
+    left: 46%;
+    top: 137%;
+}
+#mainPhoneSlider ul li{
+    margin: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    list-style: none;
+    display: inline-block;
+    border-radius: 50%;
+    border: 0.5px solid black;
+}
+
+ ul li#black {
+    background-color: black;
+}
+/* /iPhoneSlider */
